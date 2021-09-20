@@ -7,7 +7,9 @@
 	- [Usage Example](#usage)
 1. [Generated images](#genereated-images-on-several-database)
 # Introduction
-This repo provides a semi-supervised dehazing method. We formulate dehazing as a semi-supervised domain translation problem. 
+This is the PyTorch implementation for our SPL paper:
+***Single Image Dehazing via Semi-Supervised Domain Translation and Architecture Search***
+We provide a semi-supervised dehazing method in this repo.
 # Datasets and Checkpoints
 ### Datasets
 We adopted the same training set as [DA_dehazing](https://github.com/HUSTSYJ/DA_dahazing). 
