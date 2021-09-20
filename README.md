@@ -37,7 +37,7 @@ cd SID_Semi-Supervised_Domain_Translation
 Download the pretrained [checkpoints](pretrained-checkpoint)
 Put your test images in the input directory, and run:
 ```
-python --model cra_unrolled_final --resume --ckpt_path $CKPT_PATH
+python test.py --model cra_unrolled_final --resume --ckpt_path $CKPT_PATH
 ```
 The results are in the output directory.
 ## Genereated images on several database
