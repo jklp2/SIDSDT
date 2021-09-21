@@ -33,6 +33,8 @@ real_dataset = datasets.RealDataset('input')
 real_dataloader=datasets.DataLoader(
     real_dataset, batch_size=1, shuffle=False,
     num_workers=opt.nThreads, pin_memory=True)
+if not os.path.exists("output"):
+    os.makedirs("output")
 with torch.no_grad():
 
     if 'final' in opt.model:
