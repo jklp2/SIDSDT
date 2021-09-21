@@ -18,9 +18,9 @@ We adopted the same training set as [DA_dehazing](https://github.com/HUSTSYJ/DA_
 We use four test sets to evaluate our method:
  - [SOTS-OD](https://drive.google.com/drive/folders/10cP6Z-n2G0006_ppW1WxkQpNKg3mSfnj?usp=sharing)
  - [O-HAZE](http://www.vision.ee.ethz.ch/ntire18/o-haze/O-HAZE.zip)
- - [DENSE=HAZE](https://data.vision.ee.ethz.ch/cvl/ntire19/dense-haze/files/Dense_Haze_NTIRE19.zip)
+ - [DENSE-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire19/dense-haze/files/Dense_Haze_NTIRE19.zip)
  - [NH-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/files/NH-HAZE.zip)
-### Pretrained Checkpoint
+### Trained model
  - Google drive: [Checkpoint](https://drive.google.com/file/d/1vHydxmBH8o5HuxVyG4ojRZWrr788zOp5/view?usp=sharing)
 
 # Getting Started
@@ -36,7 +36,7 @@ Clone the repo
 git clone https://github.com/jklp2/SID_Semi-Supervised_Domain_Translation.git
 cd SID_Semi-Supervised_Domain_Translation
 ```
-Download the pretrained [checkpoints](pretrained-checkpoint)
+Download the trained [checkpoints](pretrained-checkpoint)
 Put your test images in the input directory, and run:
 ```
 python test.py --model cra_unrolled_final --resume --ckpt_path $CKPT_PATH
@@ -55,3 +55,5 @@ The results are in the output directory.
 #### NH-HAZE
 [Download link](https://drive.google.com/file/d/1xH-99_KfctaDDhV9ajZxiNl611BJMy6i/view?usp=sharing)
 ![image](imgs/nh-haze.jpg)
+#### Serveral S2R Results
+![image](imgs/S2R0627.jpg)
