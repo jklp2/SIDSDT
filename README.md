@@ -20,7 +20,7 @@ We use four testing sets to evaluate our method:
  - Densehaze:A Benchmark for Image Dehazing with Dense-haze and Haze-free Images  [DENSE-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire19/dense-haze/files/Dense_Haze_NTIRE19.zip)
  - NH-HAZE: An Image Dehazing Benchmark with Non-homogeneous Hazy and Haze-free Images  [NH-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/files/NH-HAZE.zip)
 ## Trained model
- - Google drive: [Checkpoint](https://drive.google.com/file/d/1vHydxmBH8o5HuxVyG4ojRZWrr788zOp5/view?usp=sharing)
+ - The trained model of fusion dehazing network is at Google drive: [Checkpoint](https://drive.google.com/file/d/1vHydxmBH8o5HuxVyG4ojRZWrr788zOp5/view?usp=sharing)
 
 ## Getting Started
 ### Requirements
