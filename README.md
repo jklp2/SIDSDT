@@ -7,7 +7,7 @@
 	- [Usage Example](#usage)
 1. [Generated images](#genereated-images-on-several-database)
 # Introduction
-This is the PyTorch implementation for our SPL paper:
+This is the PyTorch implementation for our paper:
 ***Single Image Dehazing via Semi-Supervised Domain Translation and Architecture Search***
 We provide a semi-supervised dehazing method in this repo.
 # Datasets and Checkpoints
