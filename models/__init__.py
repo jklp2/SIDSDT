@@ -3,7 +3,7 @@ from .basic import Model as basicModel
 from .basic_stage import  Model as basic_stageModel
 from .basic_stage import  Model_final_stage as basic_stageModel_final
 from .demo import Model as demo_model
-from .basic_unet import Model as basic_unetModel
+
 from .basic_darts import Model as basic_dartsModel
 from .basic_stage_unrolled import Model_final_stage as basic_stageModel_final_unrolled
 from .darts_stage import Model_final_stage as darts_stageModel_final
@@ -12,9 +12,9 @@ from .Composite_Reuse_Autocoder_unrolled import  Model as CRAModel_unrolled
 from .Composite_Reuse_Autocoder_unrolled import Model_final_stage as CRAModel_unrolled_final
 from .Composite_Reuse_Autocoder_unrolled import Model_S2S as CRAModel_unrolled_S2S
 
-from .FHA import Model_overall as FHAModel
-from .FHA import Model_cyclegan as FHAModel_cyc
-from .FHA import Model_cycenhance as CYC_enhance
+
+
+
 from .Semi import Model as Semi
 from .Composite_Reuse_Autocoder_unrolled import Model_final_distill as CRA_final_distill
 
@@ -33,8 +33,8 @@ def basic_stage_final():
 def demo():
     return demo_model()
 
-def basic_unet():
-    return basic_unetModel()
+
+
 
 def basic_darts():
     return basic_dartsModel()
@@ -57,17 +57,17 @@ def cra_unrolled_s2s():
 def cra_unrolled_final():
     return CRAModel_unrolled_final()
 
-def fha():
-    return FHAModel()
 
-def fha_cyc():
-    return FHAModel_cyc()
+
+
+
+
 
 def semi():
     return Semi()
 
-def cyc_enhance():
-    return CYC_enhance()
+
+
 
 def distill():
     return CRA_final_distill()
