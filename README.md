@@ -11,7 +11,7 @@
 This is the PyTorch implementation *of* our paper *entitiled* "Single Image Dehazing via Semi-Supervised Domain Translation and Architecture Search "
 ## Datasets
 ### Training sets：
-We adopted the same training set as [DA_dehazing](https://github.com/HUSTSYJ/DA_dahazing). 
+We adopted the same training set as [DA_dehazing](https://github.com/HUSTSYJ/DA_dahazing). All the images come from RESIDE dataset. Including 3000 synthetic hazy images in the Outdoor Training Set (OTS), 3000 synthetic hazy images in the Indoor Training Set (ITS), and 1000 real-world hazy images in the Unannotated Real Hazy Images set (URHI)
  - [DA_DATASETS](https://drive.google.com/drive/folders/10cP6Z-n2G0006_ppW1WxkQpNKg3mSfnj?usp=sharing).
 ### Testing sets：
 We use four testing sets to evaluate our method:
