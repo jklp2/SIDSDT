@@ -9,17 +9,16 @@
 # Introduction
 This is the PyTorch implementation for our paper:
 ***Single Image Dehazing via Semi-Supervised Domain Translation and Architecture Search***
-We provide a semi-supervised dehazing method in this repo.
 # Datasets and Checkpoints
 ### Datasets
 We adopted the same training set as [DA_dehazing](https://github.com/HUSTSYJ/DA_dahazing). 
  - [DA_DATASETS](https://drive.google.com/drive/folders/10cP6Z-n2G0006_ppW1WxkQpNKg3mSfnj?usp=sharing).
 
-We use four test sets to evaluate our method:
- - ***Benchmarking Single Image Dehazing and Beyond***  [SOTS-OD](https://drive.google.com/drive/folders/10cP6Z-n2G0006_ppW1WxkQpNKg3mSfnj?usp=sharing)
- - ***O-HAZE:A Dehazing Benchmark with Real Hazy and Haze-free Outdoor Images***  [O-HAZE](http://www.vision.ee.ethz.ch/ntire18/o-haze/O-HAZE.zip)
- - ***Densehaze:A Benchmark for Image Dehazing with Dense-haze and Haze-free Images***  [DENSE-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire19/dense-haze/files/Dense_Haze_NTIRE19.zip)
- - ***NH-HAZE: An Image Dehazing Benchmark with Non-homogeneous Hazy and Haze-free Images***  [NH-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/files/NH-HAZE.zip)
+We use four testing sets to evaluate our method:
+ - Benchmarking Single Image Dehazing and Beyond  [SOTS-OD](https://drive.google.com/drive/folders/10cP6Z-n2G0006_ppW1WxkQpNKg3mSfnj?usp=sharing)
+ - O-HAZE:A Dehazing Benchmark with Real Hazy and Haze-free Outdoor Images  [O-HAZE](http://www.vision.ee.ethz.ch/ntire18/o-haze/O-HAZE.zip)
+ - Densehaze:A Benchmark for Image Dehazing with Dense-haze and Haze-free Images  [DENSE-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire19/dense-haze/files/Dense_Haze_NTIRE19.zip)
+ - NH-HAZE: An Image Dehazing Benchmark with Non-homogeneous Hazy and Haze-free Images  [NH-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/files/NH-HAZE.zip)
 ### Trained model
  - Google drive: [Checkpoint](https://drive.google.com/file/d/1vHydxmBH8o5HuxVyG4ojRZWrr788zOp5/view?usp=sharing)
 
