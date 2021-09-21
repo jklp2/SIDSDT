@@ -40,7 +40,7 @@ Put your hazy images in the `input` folder, and run:
 ```
 python test.py --model cra_unrolled_final --resume --ckpt_path $CKPT_PATH
 ```
-The results are saved in the `output` folder.
+where $CKPT_PATH denotes the path of the checkpoints. The results will be saved in the `output` folder.
 ## Examples of dehazed images and pseudo-real hazy images
 #### SOTS-OD
 [Download link](https://drive.google.com/file/d/10EbzBsxML4DqvxapvhuXXOmLcA11pNRD/view?usp=sharing)
