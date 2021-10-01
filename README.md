@@ -35,7 +35,7 @@ Clone the repo
 git clone https://github.com/jklp2/SID_Semi-Supervised_Domain_Translation.git
 cd SID_Semi-Supervised_Domain_Translation
 ```
-Download the trained [checkpoints](pretrained-checkpoint)
+Download the trained [checkpoints](https://drive.google.com/file/d/1vHydxmBH8o5HuxVyG4ojRZWrr788zOp5/view?usp=sharing)
 Put your hazy images in the `input` folder, and run:
 ```
 python test.py --model cra_unrolled_final --resume --ckpt_path $CKPT_PATH
